@@ -6,8 +6,8 @@ include(FetchContent)
 if (QSCHEMATIC_DEPENDENCY_GPDS_DOWNLOAD)
     FetchContent_Declare(
         gpds
-        GIT_REPOSITORY https://github.com/simulton/gpds
-        GIT_TAG        1.5.0
+        GIT_REPOSITORY https://github.com/vowstar/gpds
+        GIT_TAG        yaml
     )
     FetchContent_GetProperties(gpds)
     if(NOT gpds_POPULATED)
@@ -21,6 +21,8 @@ if (QSCHEMATIC_DEPENDENCY_GPDS_DOWNLOAD)
         add_library(gpds::gpds-static ALIAS gpds-static)
         add_library(gpds::gpds-shared ALIAS gpds-shared)
     endif()
+elseif (QSCHEMATIC_DEPENDENCY_GPDS_LOCAL)
+    # GPDS is a local dependency, do nothing
 else()
     find_package(
         gpds

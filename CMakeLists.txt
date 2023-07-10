@@ -11,6 +11,7 @@ project(
 # User options
 option(QSCHEMATIC_BUILD_DEMO "Whether to build the demo project" ON)
 option(QSCHEMATIC_DEPENDENCY_GPDS_DOWNLOAD "Whether to pull the GPDS dependency via FetchContent" ON)
+option(QSCHEMATIC_DEPENDENCY_GPDS_LOCAL "Whether to use a local GPDS sources as dependency" OFF)
 
 # User settings
 set(QSCHEMATIC_DEPENDENCY_GPDS_TARGET "gpds::gpds-static" CACHE STRING "The CMake target of the GPDS library to use")

@@ -7,6 +7,7 @@
 #include "netlist/widget.h"
 
 #include <gpds/archiver_xml.hpp>
+#include <gpds/archiver_yaml.hpp>
 #include <qschematic/scene.h>
 #include <qschematic/view.h>
 #include <qschematic/commands/item_add.h>
@@ -188,7 +189,7 @@ bool MainWindow::save()
     }
 
     // Archiver
-    gpds::archiver_xml ar;
+    gpds::archiver_yaml ar;
     std::stringstream stream;
     ar.save(stream, *_scene, "qschematic");
 
@@ -224,7 +225,7 @@ bool MainWindow::load(const QString& filepath)
     }
 
     // Archiver
-    gpds::archiver_xml ar;
+    gpds::archiver_yaml ar;
     std::stringstream stream;
     stream << file.readAll().data();
     ar.load(stream, *_scene, "qschematic");
@@ -388,7 +389,7 @@ void MainWindow::demo()
     _scene->clear();
     _scene->setSceneRect(-500, -500, 3000, 3000);
 
-    load(":/demo_01.xml");
+    load(":/demo_01.yaml");
 
     generateNetlist();
 }

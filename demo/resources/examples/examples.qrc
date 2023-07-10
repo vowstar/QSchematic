@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file alias="demo_01.xml">demo_01.xml</file>
+        <file alias="demo_01.yaml">demo_01.yaml</file>
     </qresource>
 </RCC>

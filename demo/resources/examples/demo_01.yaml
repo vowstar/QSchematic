@@ -1,0 +1,188 @@
+---
+qschematic: 
+  nodes: 
+    node: 
+      - "-type_id": 65637
+        label: 
+          "-type_id": 65541
+          connection_point: 
+            "-enabled": true
+            x: 110.
+            y: 150.
+          item: 
+            "-type_id": 65541
+            highlight: true
+            movable: true
+            rotation: 
+              "#text": 0.
+              "-direction": cw
+              "-unit": degrees
+            snap_to_grid: false
+            visible: true
+            x: 80.5
+            y: "-10."
+          text: Generic
+        node: 
+          "-type_id": 65637
+          allow_mouse_resize: true
+          allow_mouse_rotate: true
+          connectors: 
+            connector: 
+              "-type_id": 65638
+              connector: 
+                "-type_id": 65638
+                force_text_direction: false
+                item: 
+                  "-type_id": 65638
+                  highlight: true
+                  movable: true
+                  rotation: 
+                    "#text": 0.
+                    "-direction": cw
+                    "-unit": degrees
+                  snap_to_grid: true
+                  visible: true
+                  x: 220.
+                  y: 100.
+                label: 
+                  "-type_id": 65541
+                  connection_point: 
+                    "-enabled": true
+                    x: 0.
+                    y: 0.
+                  item: 
+                    "-type_id": 65541
+                    highlight: true
+                    movable: true
+                    rotation: 
+                      "#text": 0.
+                      "-direction": cw
+                      "-unit": degrees
+                    snap_to_grid: false
+                    visible: true
+                    x: "-54."
+                    y: 5.480469
+                  text: axi_s
+                snap_policy: null
+                text_direction: null
+          connectors_configuration: 
+            movable: true
+            snap_policy: 2
+            snap_to_grid: true
+          height: 300.
+          rect_item: 
+            "-type_id": 65637
+            allow_mouse_resize: true
+            allow_mouse_rotate: true
+            height: 300.
+            item: 
+              "-type_id": 65637
+              highlight: true
+              movable: true
+              rotation: 
+                "#text": 0.
+                "-direction": cw
+                "-unit": degrees
+              snap_to_grid: true
+              visible: true
+              x: "-100."
+              y: "-300."
+            minimum_height: 40.
+            minimum_width: 40.
+            width: 220.
+          width: 220.
+      - "-type_id": 65637
+        label: 
+          "-type_id": 65541
+          connection_point: 
+            "-enabled": true
+            x: 110.
+            y: 150.
+          item: 
+            "-type_id": 65541
+            highlight: true
+            movable: true
+            rotation: 
+              "#text": 0.
+              "-direction": cw
+              "-unit": degrees
+            snap_to_grid: false
+            visible: true
+            x: 80.5
+            y: "-10."
+          text: Generic
+        node: 
+          "-type_id": 65637
+          allow_mouse_resize: true
+          allow_mouse_rotate: true
+          connectors: 
+            connector: 
+              "-type_id": 65638
+              connector: 
+                "-type_id": 65638
+                force_text_direction: false
+                item: 
+                  "-type_id": 65638
+                  highlight: true
+                  movable: true
+                  rotation: 
+                    "#text": 0.
+                    "-direction": cw
+                    "-unit": degrees
+                  snap_to_grid: true
+                  visible: true
+                  x: 220.
+                  y: 100.
+                label: 
+                  "-type_id": 65541
+                  connection_point: 
+                    "-enabled": true
+                    x: 0.
+                    y: 0.
+                  item: 
+                    "-type_id": 65541
+                    highlight: true
+                    movable: true
+                    rotation: 
+                      "#text": 0.
+                      "-direction": cw
+                      "-unit": degrees
+                    snap_to_grid: false
+                    visible: true
+                    x: "-54."
+                    y: 5.480469
+                  text: axi_s
+                snap_policy: null
+                text_direction: null
+          connectors_configuration: 
+            movable: true
+            snap_policy: 2
+            snap_to_grid: true
+          height: 300.
+          rect_item: 
+            "-type_id": 65637
+            allow_mouse_resize: true
+            allow_mouse_rotate: true
+            height: 300.
+            item: 
+              "-type_id": 65637
+              highlight: true
+              movable: true
+              rotation: 
+                "#text": 0.
+                "-direction": cw
+                "-unit": degrees
+              snap_to_grid: true
+              visible: true
+              x: 240.
+              y: "-300."
+            minimum_height: 40.
+            minimum_width: 40.
+            width: 220.
+          width: 220.
+  scene: 
+    rect: 
+      height: 3000
+      width: 3000
+      x: "-500"
+      y: "-500"
